@@ -40,7 +40,7 @@ Veja o schema completo e a integração com n8n em [AIRTABLE_SETUP.md](./AIRTABL
 
 ## Deploy na Vercel
 
-1. Suba a pasta `dashboard/` para um repositório Git (a `.env.local` é ignorada).
+1. Suba a pasta `dashboard/` para um repositório Git.
 2. Na Vercel: **New Project** → importe o repo → **Root Directory = `dashboard`**.
 3. Em **Settings → Environment Variables**, adicione `AIRTABLE_API_KEY`,
    `AIRTABLE_BASE_ID`, `AIRTABLE_TABLE_NAME`.
