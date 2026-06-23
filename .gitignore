@@ -1,0 +1,16 @@
+/node_modules
+/.next
+/out
+/build
+*.tsbuildinfo
+next-env.d.ts
+
+# env / secrets
+.env.local
+.env*.local
+
+# helper scaffolding (continha o token / payloads)
+.airtable_table.json
+.airtable_seed.json
+
+.DS_Store

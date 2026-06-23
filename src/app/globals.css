@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0d0d0d;
+  --surface: #1a1a1a;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: #fffdf7;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Headlines com letter-spacing negativo (identidade "The Pragmatist") */
+h1,
+h2,
+h3 {
+  letter-spacing: -0.4px;
+}
+
+::selection {
+  background: #f5a623;
+  color: #0d0d0d;
+}
+
+/* Scrollbar discreta */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #333 transparent;
+}
